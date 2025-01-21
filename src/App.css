@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #71d7f4aa);
 }
 
 @keyframes logo-spin {
@@ -39,4 +39,45 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  background-color: #1D3557;
+  color: #FFFFFF;
+}
+
+div {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #215474;
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #e8dcdc;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #e9dcdc;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #8fd0d1;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F1FAEE;
+  color: #1D3557;
 }
